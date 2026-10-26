@@ -1,0 +1,6 @@
+apiVersion: v2
+name: tag-app
+description: Custom NGINX deployment chart for AWS EKS Helm lifecycle and connectivity testing
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

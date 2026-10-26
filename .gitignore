@@ -1,0 +1,22 @@
+# Rendered Kubernetes manifests may contain Secrets
+docs/nginx-rendered.yaml
+
+# Helm packages and local dependencies
+*.tgz
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+kubeconfig
+kubeconfig.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp

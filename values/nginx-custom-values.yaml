@@ -1,0 +1,9 @@
+# Assignment 3.11 — Helm NGINX Deployment
+# Namespace: tag-eks-activity
+
+replicaCount: 1
+
+service:
+  type: LoadBalancer
+  ports:
+    http: 80
